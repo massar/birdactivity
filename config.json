@@ -1,0 +1,25 @@
+{
+	"useragent": "birdactivity (operator@example.net)",
+	"mstdnserver": "https://mastadon.example.net",
+	"mstdnclientid": "<Mastadon Client ID>",
+	"mstdnclientsecret": "<Masadon Client Secret>",
+	"cachedir": "/var/lib/birdactivity/cache",
+	"accounts": [
+		{
+			"name": "firstaccount",
+			"active": true,
+			"feedurl": "https://www.example.com/feeds.rss",
+			"postfield": "title",
+			"mstdnuser": "first@example.net",
+			"mstdnpass": "XNQ41CS0-A-LONG-PASSWORD-HOcuQI32ER3gAJT9"
+		},
+		{
+			"name": "secondaccount",
+			"active": false,
+			"feedurl": "https://other.example.org/feeds.rss",
+			"postfield": "titlecontent",
+			"mstdnuser": "second@example.net",
+			"mstdnpass": "p6aoB58V-A-DIFFERENT-LONG-PASSWORD-IagzFS4h"
+		}
+	]
+}
