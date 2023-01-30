@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/mattn/go-mastodon v0.0.6
-	github.com/microcosm-cc/bluemonday v1.0.21
+	github.com/microcosm-cc/bluemonday v1.0.22
 	github.com/mmcdole/gofeed v1.1.3
 )
 
